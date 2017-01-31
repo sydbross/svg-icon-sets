@@ -21,6 +21,7 @@ a {
   color: #ff5e3a;
 }
 
-hr {
-  border-top: 2px solid #fff;
+.border {
+  border-bottom: 3px solid;
+  border-color: rgba(255, 255, 255, 1);
 }
