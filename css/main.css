@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 }
 
@@ -13,7 +13,7 @@ a {
 }
 
 .btn {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .5);
   color: #fff;
 }
 
@@ -22,6 +22,17 @@ a {
 }
 
 .border {
-  border-bottom: 3px solid;
-  border-color: rgba(255, 255, 255, 1);
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    border-right: 3px solid rgba(255, 255, 255, .5);
+  }
+
+  .border {
+    border-bottom: 0;
+  }
+
 }
